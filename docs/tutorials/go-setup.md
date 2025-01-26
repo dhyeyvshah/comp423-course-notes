@@ -35,8 +35,9 @@ Replace ```<your-readme.md-text>``` with your README markdown text.
 
 ## Step 2: Create a Remote Repository on GitHub
 1. Log in to your GitHub account and navigate to the [Create a New Repository](https://github.com/new) page.
+2. Create a new repository with the name ```go-hello-comp423``` and ensure the visibility is set to public.
 
-2. Add the GitHub repository as a remote:
+3. Add the GitHub repository as a remote:
 
         git remote add origin https://github.com/<your-username>/go-hello-comp423.git
 Replace ```<your-username>``` with your GitHub username.
@@ -88,7 +89,7 @@ This verifies the Go version installed in the container.
         import "fmt"
 
         func main() {
-            fmt.Printlin("Hello COMP423")
+            fmt.Println("Hello COMP423")
         }
 
 ## Step 5: Run the program

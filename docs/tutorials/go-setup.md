@@ -104,9 +104,9 @@ You have two options:
         ./hello
 
 !!! Note
-        The ```go run``` command executes the source code directly, while the ```go build``` command
-        compiles the code into an executable binary, which can be run without requiring Go at runtime
-        (similar to gcc in that they both compile code into an executable).
+    The ```go run``` command executes the source code directly, while the ```go build``` command
+    compiles the code into an executable binary, which can be run without requiring Go at runtime
+    (similar to gcc in that they both compile code into an executable).
 
 ---
 

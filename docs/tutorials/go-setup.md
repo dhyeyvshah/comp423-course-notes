@@ -62,6 +62,10 @@ Replace ```<your-username>``` with your GitHub username.
             }
         }
 
+- ```name```: A descriptive name for your dev container.
+- ```image```: The base image from Microsoft with Go pre-installed.
+- ```customizations```: Adds useful configurations to VS Code, like installing the Go extension.
+
 5. Reopen the project in the container by pressing ```Ctrl+Shift+P``` (or ```Cmd+Shift+P``` on Mac), typing "Dev Containers: Reopen in Container," and selecting the option. 
 6. Open the terminal in VS Code and run:
 
@@ -97,3 +101,7 @@ You have two options:
 
         go build -o hello
         ./hello
+
+---
+
+Congratulations! You have successfully set up a dev container for Go!
